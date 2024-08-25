@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './components/Header';
 import GameBanner from './components/GameBanner';
 import GameDescription from './components/GameDescription';
