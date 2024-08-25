@@ -1,0 +1,145 @@
+.user-reviews {
+  padding: 32px 100px;
+  background-color: #0e1015;
+}
+
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.reviews-title {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-family: "Krona One", sans-serif;
+}
+
+.arrow-icon {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+}
+.Plus_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.add-review-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: #0e1015;
+  border: 1px solid #ffffff00;
+  border-radius: 8px;
+  color: #d5224e;
+  font-family: "Krona One", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.review-item {
+  background-color: #1c171d;
+  border-radius: 8px;
+  padding: 32px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.highlighted-review {
+  background-color: #d5224e;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-family: "Krona One", sans-serif;
+  text-transform: uppercase;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-container .rating {
+  color: white;
+  font-size: 16px;
+  font-family: "Krona One", sans-serif;
+  margin-left: 8px;
+}
+
+.star-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.review-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.author {
+  color: #d5224e;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+.date {
+  color: #787b81;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  font-family: "Krona One", sans-serif;
+  margin-bottom: 12px;
+}
+
+.content {
+  color: white;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  line-height: 1.6;
+}
+
+.interactions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  gap: 61px;
+  cursor: pointer;
+}
+
+.likes,
+.comments,
+.social-network {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 16px;
+  font-family: "Krona One", sans-serif;
+}
+
+.social-network {
+  margin-left: auto;
+}
+
+.social-network img {
+  width: 24px;
+  height: 24px;
+}

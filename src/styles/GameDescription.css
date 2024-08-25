@@ -1,0 +1,30 @@
+.game-description {
+  padding: 77px;
+  background-color: #0e1015;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.description-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.description-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.description-title {
+  font-size: 18px;
+  font-family: "Krona One", sans-serif;
+  text-transform: uppercase;
+}
+
+.description-text {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  color: white;
+}
